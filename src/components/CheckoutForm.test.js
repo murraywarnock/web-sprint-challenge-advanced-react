@@ -56,14 +56,13 @@ test("form shows success message on submit with form details", async () => {
 
 // Snippet 1
     // const successMsg2 = await screen.findByText(/you have ordered some plants!/i);
-    // const successMsg2 = await screen.findByText(/you have ordered some plants!/i);
     // const firstNameDisplay2 = await screen.findByText(/jane/i);
     // const lastNameDisplay2 = await screen.findByText(/doe/i);
     // const addressDisplay2 = await screen.findByText(/123 main street/i);
     // const cityDisplay2 = await screen.findByText(/anytown/i);
     // const stateDisplay2 = await screen.findByText(/pa/i);
     // const zipDisplay2 = await screen.findByText(/19999/i);
-    // 
+    
     // expect(successMsg2).toBeInTheDocument(true);
     // expect(firstNameDisplay2).toBeInTheDocument(true);
     // expect(lastNameDisplay2).toBeInTheDocument(true);
@@ -81,7 +80,7 @@ test("form shows success message on submit with form details", async () => {
     //     const cityDisplay3 = screen.getByText(/anytown/i);
     //     const stateDisplay3 = screen.getByText(/pa/i);
     //     const zipDisplay3 = screen.getByText(/19999/i);
-    //   
+      
     //     expect(successMsg3).toBeInTheDocument(true);
     //     expect(firstNameDisplay3).toBeInTheDocument(true);
     //     expect(lastNameDisplay3).toBeInTheDocument(true);
